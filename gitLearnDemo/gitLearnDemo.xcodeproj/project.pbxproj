@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC64CCAE1DE319210068D94F /* LYFTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC64CCAC1DE319210068D94F /* LYFTableViewCell.m */; };
+		CC64CCAF1DE319210068D94F /* LYFTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC64CCAD1DE319210068D94F /* LYFTableViewCell.xib */; };
 		CC671FEA1DDADB46004E0EDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC671FE91DDADB46004E0EDF /* main.m */; };
 		CC671FED1DDADB46004E0EDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC671FEC1DDADB46004E0EDF /* AppDelegate.m */; };
 		CC671FF01DDADB46004E0EDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC671FEF1DDADB46004E0EDF /* ViewController.m */; };
@@ -16,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC64CCAB1DE319210068D94F /* LYFTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYFTableViewCell.h; sourceTree = "<group>"; };
+		CC64CCAC1DE319210068D94F /* LYFTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYFTableViewCell.m; sourceTree = "<group>"; };
+		CC64CCAD1DE319210068D94F /* LYFTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYFTableViewCell.xib; sourceTree = "<group>"; };
 		CC671FE51DDADB46004E0EDF /* gitLearnDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitLearnDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC671FE91DDADB46004E0EDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC671FEB1DDADB46004E0EDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +44,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC64CCAA1DE319100068D94F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CC64CCAB1DE319210068D94F /* LYFTableViewCell.h */,
+				CC64CCAC1DE319210068D94F /* LYFTableViewCell.m */,
+				CC64CCAD1DE319210068D94F /* LYFTableViewCell.xib */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		CC671FDC1DDADB46004E0EDF = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +77,7 @@
 				CC671FEC1DDADB46004E0EDF /* AppDelegate.m */,
 				CC671FEE1DDADB46004E0EDF /* ViewController.h */,
 				CC671FEF1DDADB46004E0EDF /* ViewController.m */,
+				CC64CCAA1DE319100068D94F /* Category */,
 				CC671FF11DDADB46004E0EDF /* Main.storyboard */,
 				CC671FF41DDADB46004E0EDF /* Assets.xcassets */,
 				CC671FF61DDADB46004E0EDF /* LaunchScreen.storyboard */,
@@ -140,6 +156,7 @@
 				CC671FF81DDADB46004E0EDF /* LaunchScreen.storyboard in Resources */,
 				CC671FF51DDADB46004E0EDF /* Assets.xcassets in Resources */,
 				CC671FF31DDADB46004E0EDF /* Main.storyboard in Resources */,
+				CC64CCAF1DE319210068D94F /* LYFTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +170,7 @@
 				CC671FF01DDADB46004E0EDF /* ViewController.m in Sources */,
 				CC671FED1DDADB46004E0EDF /* AppDelegate.m in Sources */,
 				CC671FEA1DDADB46004E0EDF /* main.m in Sources */,
+				CC64CCAE1DE319210068D94F /* LYFTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +327,7 @@
 				CC671FFE1DDADB46004E0EDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
